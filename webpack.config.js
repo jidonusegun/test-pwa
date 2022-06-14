@@ -10,8 +10,7 @@ const webpackPlugins = [
     filename: 'index.html',
   } ),
   new Dotenv({
-    path: './.env.prod', // Path to .env file (this is the default)
-    systemvars: true,
+    path: path.resolve(__dirname,'.env.local')
   }),
   new CopyPlugin( {
     patterns: [
