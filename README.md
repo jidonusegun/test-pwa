@@ -1,10 +1,10 @@
-# [React PWA Workbox Example](https://react-pwa-workbox-example.vercel.app/)
+# [React PWA Workbox Example](https://netflix-homepage-ecru.vercel.app/)
 
 :fire: This is a React PWA Workbox Example for learning how to build React PWA.
 
 ## Demo Site
 
-https://react-pwa-workbox-example.vercel.app/
+https://netflix-homepage-ecru.vercel.app/
 
 * Landing page
 ![](demo/demo.png)
@@ -14,14 +14,12 @@ Create a `.env` taking example from `.env-example` and Put your api key by getti
 
 ## Installation
 
-1. Clone this repo in `git clone https://github.com/imranhsayed/react-workshop`
+1. Clone this repo in `https://github.com/jidonusegun/netflix-homepage`
 
 2. `cd react-pwa-workbox-example`
 
 3. Run `npm install`
 3. Run `npm run dev`
-
-[Blog Link](https://medium.com/@imranhsayed/set-up-react-app-with-webpack-webpack-dev-server-and-babel-from-scratch-df398174446d)
 
 ## Commands
 
