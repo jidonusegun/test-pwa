@@ -1,6 +1,5 @@
 const HtmlWebpackPlugin = require( 'html-webpack-plugin' );
 const path = require( 'path' );
-const Dotenv = require( 'dotenv-webpack' );
 const { InjectManifest } = require( 'workbox-webpack-plugin' );
 const CopyPlugin = require( 'copy-webpack-plugin' );
 
@@ -9,9 +8,6 @@ const webpackPlugins = [
     template: path.resolve( __dirname, 'public/index.html' ),
     filename: 'index.html',
   } ),
-  new Dotenv({
-    path: path.resolve(__dirname,'.env.local')
-  }),
   new CopyPlugin( {
     patterns: [
       { from: './src/favicon.ico', to: '' },
