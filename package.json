@@ -6,9 +6,11 @@
   "scripts": {
     "webpack-dev-server": "webpack-dev-server",
     "dev": "webpack serve --mode=development",
-    "build": "react-scripts build",
+    "prod": "NODE_ENV=production webpack --mode=production",
     "serve": "npm run prod && serve -s dist",
-    "svg": "svgr -d src/components/icons src/components/icons/svgs"
+    "svg": "svgr -d src/components/icons src/components/icons/svgs",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "author": "Jidonu Segun",
   "dependencies": {
@@ -19,6 +21,7 @@
     "file-loader": "^6.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1",
     "style-loader": "^2.0.0",
     "workbox-cacheable-response": "^6.5.3",
     "workbox-core": "^6.5.3",
@@ -44,5 +47,17 @@
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2",
     "workbox-webpack-plugin": "^6.1.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
