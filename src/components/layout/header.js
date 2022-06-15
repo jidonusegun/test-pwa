@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "@reach/router";
 import NetflixLogo from '../icons/NetflixLogo';
 import Nav from './nav';
-import '../../images/netflix-logo.png'
 
 const Header = () => {
   return (
@@ -17,7 +16,7 @@ const Header = () => {
         <div className="user">
           <div className="name">Jidonu Segun</div>
           <div className="image">
-            <img src="/images/netflix-logo.png" alt="netflix"/>
+            <img src="../../images/netflix-logo.png" alt="netflix"/>
           </div>
         </div>
       </div>
